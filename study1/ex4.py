@@ -11,4 +11,8 @@ with tf.Session() as sess:
     print sess.run(state)
     for _ in range(3):
         sess.run(update)
-        print sess.run(state)
+        print sess.run(update)
+
+writer = tf.summary.FileWriter(
+    'tmp/log/', graph=tf.get_default_graph()
+)

@@ -25,3 +25,18 @@ with tf.Session() as sess:
 	sess.run(x.initializer())
 	sess.run(sub)
 ```
+```
+state = tf.Variable(0,name='counter')
+#'name' is variable using in tensorflow 
+```
+`placeholder` throw type to value
+#### placeholder is used by key of feed_dict
+
+- Client, Master, Worker
+
+you can save 3 of element in tensorflow
+- parameter -> .ckpt
+- feed -> .tfrecord
+- model -> .npz, .h5, `.pd#reference using in tensorflow`
+
+
