@@ -39,4 +39,14 @@ you can save 3 of element in tensorflow
 - feed -> .tfrecord
 - model -> .npz, .h5, `.pd#reference using in tensorflow`
 
+-underfitting
+-right
+-overfitting : if value become overfitting, the next input generate output equal '0'
+overfitting reduce loss value. but when test value input to overfitting, it can't predict next value
+
+overfitting occasion
+- Complexed Model
+- lack of Data
+
+
 
